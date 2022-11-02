@@ -153,6 +153,9 @@ footer{
         height: 50vh;
         position: relative;
     }
+    .side-title{
+        font-size: 1.7rem;
+    }
     .flex-h {
         display: block;
     }
