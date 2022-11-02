@@ -1,0 +1,96 @@
+:root{
+    --cr-blue: #14294d;
+    --cr-yellow: #CE902D;
+    --cr-beige: #ffeacf;
+    font-size: 24px;
+    font-family: 'Raleway', san-serif;
+}
+:root.light{
+    --main-bg: var(--cr-beige);
+    --main-text: #222;
+    --main-color: var(--cr-blue);
+    --button-color: var(--cr-yellow);
+    --main-button-text: var(--main-bg);
+    --input-bk: #fdf6ee;
+}
+:root.dark{
+    --main-bg: var(--cr-blue);
+    --main-text: white;
+    --main-color: var(--cr-yellow);
+    --button-color: var(--cr-beige);
+    --main-button-text: var(--main-bg);
+    --input-bk: #2f63bb;
+}
+
+body{
+    background-color: var(--main-bg);
+    color: var(--main-text);
+    padding: 0;
+    margin: 0;
+    
+}
+
+button{
+    display:block;
+    background: var(--button-color); 
+    padding: 1rem 3rem;  
+    color: #222;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 3rem;
+}
+
+.flex-h{
+    display: flex;
+    position: relative;
+    justify-content:center;
+}
+.side-portion{
+    position: sticky;
+    top: 0;
+    flex: 1;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+}
+h1{
+    margin-top: 33vh;
+    text-align: center;
+}
+.main-portion{
+    flex: 1.5;
+    padding: 2rem;
+}
+label:not(.small-label){
+    display:block;
+    font-weight:bold;
+    font-size:1.2rem;
+    margin-top:.5rem;
+}
+.small-label{
+    display: inline-block;
+    margin-top: .5rem;
+    font-size:.9rem;
+
+}
+input{
+    background-color:var(--input-bk);
+    color:var(--main-text);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+fieldset{
+    margin-bottom: 2rem;
+    border-color: var(--button-color);
+    color:var(--main-color);
+}
+
+legend{
+    text-transform:uppercase;
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: .1rem;
+    font-family: 'Rammetto One', cursive;
+}
+
