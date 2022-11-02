@@ -2,12 +2,12 @@
     --cr-blue: #14294d;
     --cr-yellow: #CE902D;
     --cr-beige: #ffeacf;
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Raleway', san-serif;
 }
 :root.light{
     --main-bg: var(--cr-beige);
-    --main-text: #222;
+    --main-text: #111;
     --main-color: var(--cr-blue);
     --button-color: var(--cr-yellow);
     --main-button-text: var(--main-bg);
@@ -27,6 +27,7 @@ body{
     color: var(--main-text);
     padding: 0;
     margin: 0;
+    letter-spacing: .02rem;
     
 }
 
@@ -37,7 +38,7 @@ button{
     color: #222;
     font-size: 1.3rem;
     font-weight: bold;
-    border-radius: 3rem;
+    font-family: 'Raleway', san-serif;
 }
 
 .flex-h{
