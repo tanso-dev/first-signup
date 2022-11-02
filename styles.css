@@ -165,7 +165,6 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 2rem 1rem;
     }
     .side-title{
         position: initial;
@@ -173,6 +172,7 @@ footer{
         transform: initial;
         flex: 1;
         font-size: 1.2rem;
+        padding: 2rem 1rem;
     }
     .flex-h {
         display: block;
