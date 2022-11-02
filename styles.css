@@ -150,11 +150,11 @@ footer{
 
 @media only screen and (max-width: 900px) {
     .side-portion{
-        height: 50vh;
+        height: 33vh;
         position: relative;
     }
     .side-title{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     .flex-h {
         display: block;
