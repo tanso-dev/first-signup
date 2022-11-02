@@ -52,8 +52,12 @@ button{
     font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Raleway', san-serif;
+    cursor: pointer;
+    transition: all .1s;
 }
-
+button:active{
+    transform: scale(.9);
+}
 .flex-h{
     display: flex;
     position: relative;
