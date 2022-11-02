@@ -113,6 +113,12 @@ input{
 input:focus{
     border-color: var(--button-color);
 }
+/* input:invalid{
+    border-color:rgb(255, 38, 38);
+} */
+input.required:invalid{
+    border-color: rgb(255, 38, 38);
+}
 fieldset{
     margin-bottom: 2rem;
     border: 3px solid var(--button-color);
@@ -123,6 +129,7 @@ fieldset{
     gap: 2rem;
     flex-wrap:wrap;
     padding: 1rem;
+    padding-bottom: 2rem;
 }
 
 legend{
@@ -147,13 +154,24 @@ footer{
 .fieldset-section{
     flex: 1;
 }
-
+.fa-mug-hot{
+    margin-bottom: 1.2rem;
+}
 @media only screen and (max-width: 900px) {
     .side-portion{
-        height: 33vh;
+        height: auto;
+        min-height: 33vh;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
     }
     .side-title{
+        position: initial;
+        top: initial;
+        transform: initial;
+        flex: 1;
         font-size: 1.2rem;
     }
     .flex-h {
