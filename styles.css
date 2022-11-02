@@ -4,6 +4,9 @@
     --cr-beige: #ffeacf;
     font-size: 26px;
     font-family: 'Raleway', san-serif;
+    font-feature-settings: "lnum"!important;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
 }
 :root.light{
     --main-bg: var(--cr-beige);
